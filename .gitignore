@@ -1,0 +1,12 @@
+# Environment variables / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.DS_Store

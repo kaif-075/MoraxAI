@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+  <div class="top-bar">
+    <img id="profilePic" src="/Images/img.webp" alt="profile">
+  </div>
+  
+  <div id="profilePanel" class="profile-panel">
+    <button id="closeProfile">X</button>
+    <img id="profileImage" src="/Images/img.webp">
+    <h2 id="studentName">Student Name</h2>
+    <p><strong>PIN :</strong><span id="studentPin"></span></p>
+    <p><strong>Branch :</strong><span id="studentBranch"></span></p>
+    <p><strong>Semester :</strong><span id="studentSemester"></span></p>
+    <p><strong>Attendance :</strong><span id="studentAttendance"></span></p>
+
+    <p><strong></strong></p>
+    <button id="logOut" onclick="logoutStudent()">
+      Logout
+    </button>
+  </div>
+  <div id="notificationPanel" class="notification-panel">
+    <div class="notification-header">
+      <h2>📢 Notifications <span id="notificationCount">0</span></h2>
+      <button id="closeNotification">✕</button>
+    </div>
+    <div id="notificationList" class="notification-body"></div>
+  </div>
+
+  <div class="floating-actions">
+    <button id="notificationBtn" class="floating-btn" title="Notifications">
+      🔔
+      <span id="notificationBadge">0</span>
+    </button>
+  </div>
+
+  <h1 id="header">Welcome</h1>
+      <div id="chatContainer" class="chat-messages">
+    
+
+    <div class="chatbox">
+    <textarea id="inputbar" placeholder="Type Something..."></textarea>
+
+  
+
+    <button type="button" id="btnn">
+        &UpArrow;
+    </button>
+
+</div>
+  <script src="/Semester/script.js"></script>
+</body>
+</html>
